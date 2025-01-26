@@ -2,14 +2,16 @@
 	"author": "Hamir Mahal",
 	"devDependencies": {
 		"@types/node": "^20.14.10",
+		"husky": "^9.1.7",
 		"typescript": "^5.5.3",
 		"vitest": "^2.0.2"
 	},
 	"license": "AGPL-3.0-only",
 	"keywords": ["testing", "typescript", "unit testing", "vitest"],
 	"scripts": {
-		"test": "vitest",
-		"type-check": "tsc --noEmit"
+		"test": "vitest run",
+		"type-check": "tsc --noEmit",
+		"prepare": "husky"
 	},
 	"version": "1.0.0"
 }
