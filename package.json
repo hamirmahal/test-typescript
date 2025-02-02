@@ -9,9 +9,9 @@
 	"license": "AGPL-3.0-only",
 	"keywords": ["testing", "typescript", "unit testing", "vitest"],
 	"scripts": {
+		"prepare": "husky",
 		"test": "vitest run",
-		"type-check": "tsc --noEmit",
-		"prepare": "husky"
+		"type-check": "tsc --noEmit"
 	},
 	"version": "1.0.0"
 }
