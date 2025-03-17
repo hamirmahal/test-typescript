@@ -4,7 +4,7 @@
 		"@types/node": "^20.14.10",
 		"husky": "^9.1.7",
 		"typescript": "^5.5.3",
-		"vitest": "^2.0.2"
+		"vitest": "^3.0.9"
 	},
 	"license": "AGPL-3.0-only",
 	"scripts": {
