@@ -7,7 +7,6 @@
 		"vitest": "^2.0.2"
 	},
 	"license": "AGPL-3.0-only",
-	"keywords": ["testing", "typescript", "unit testing", "vitest"],
 	"scripts": {
 		"prepare": "husky",
 		"test": "vitest run",
