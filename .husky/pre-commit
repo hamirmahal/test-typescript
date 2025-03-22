@@ -1,2 +1,2 @@
 npm run type-check
-npm test
+npm run test-non-interactive

@@ -8,7 +8,8 @@
 	},
 	"scripts": {
 		"prepare": "husky",
-		"test": "vitest run",
+		"test": "vitest",
+		"test-non-interactive": "vitest run",
 		"type-check": "tsc --noEmit"
 	},
 	"version": "1.0.0"
